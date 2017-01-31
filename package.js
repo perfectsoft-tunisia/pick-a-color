@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('METEOR@1.0');
-    api.use(['jquery', 'twbs:bootstrap'], 'client');
+    api.use(['ecmascript', 'jquery', 'twbs:bootstrap'], 'client');
 
     api.addFiles([
         'build/dependencies/tinycolor-0.9.15.min.js',
